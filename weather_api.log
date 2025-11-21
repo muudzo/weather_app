@@ -29,3 +29,653 @@
 2025-11-21 19:50:48,448 - backend.main - INFO - Weather request received for city: San Francisco
 2025-11-21 19:50:48,839 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=San+Francisco&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
 2025-11-21 19:50:48,850 - backend.main - INFO - ✅ Successfully fetched weather for San Francisco: 9.57°C
+2025-11-21 22:02:59,315 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 22:02:59,315 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 22:02:59,490 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:02:59,674 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:02:59,884 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:02:59,934 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:02:59,935 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:00,069 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:00,071 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:00,095 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:00,278 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:00,279 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:00,308 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:00,491 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:00,492 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:00,515 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:00,718 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:00,745 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:00,745 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:00,918 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:00,920 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:00,926 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:01,106 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:01,108 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:01,132 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:01,342 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:01,354 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:01,355 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:01,543 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:01,564 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:01,564 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:01,751 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:01,764 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:01,765 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:01,911 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:01,913 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:01,958 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:02,131 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:02,133 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:02,168 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:02,362 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:02,364 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:02,378 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:02,582 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:02,619 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:02,620 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:02,796 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:02,907 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:02,908 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:02,978 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:02,980 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:03,001 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:03,183 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:03,186 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:03,227 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:03,360 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:03,360 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:03,417 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:03,623 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:03,646 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:03,666 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:03,789 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:03,790 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:03,830 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:04,041 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:04,064 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:04,066 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:04,242 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:04,255 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:04,255 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:04,445 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:04,446 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:04,455 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:04,664 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:04,677 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:04,678 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:04,872 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:04,915 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:04,916 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:05,080 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:05,162 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:05,163 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:05,289 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:05,326 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:05,327 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:05,494 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:05,503 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:05,504 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:05,687 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:05,688 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:05,692 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:05,899 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:05,912 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:05,914 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:06,108 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:06,109 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:06,110 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:06,283 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:06,284 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:06,315 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:06,499 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:06,500 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:06,524 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:06,707 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:06,709 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:06,734 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:06,892 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:06,894 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:06,940 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:07,120 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:07,121 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:07,143 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:07,353 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:07,363 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:07,364 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:07,554 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:07,555 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:07,560 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:07,699 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:07,700 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:07,774 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:07,984 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:08,039 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:08,040 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:08,177 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:08,225 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:08,226 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:08,377 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:08,379 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:08,385 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:08,593 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:08,608 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:08,608 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:08,803 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:08,809 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:08,810 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:08,989 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:08,991 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:09,011 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:09,189 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:09,191 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:09,212 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:09,424 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:09,462 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:09,463 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:09,613 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:09,623 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:09,623 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:09,801 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:09,802 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:09,825 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:09,983 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:09,984 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:10,036 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:10,241 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:10,260 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:10,261 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:10,437 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:10,438 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:10,443 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:10,628 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:10,630 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:10,649 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:10,804 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:10,805 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:10,848 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:11,050 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:11,064 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:11,065 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:11,273 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:11,286 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:11,287 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:11,471 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:11,527 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:11,528 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:11,673 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:11,904 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:11,932 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:11,933 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:12,101 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:12,218 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:12,219 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:12,296 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:12,501 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:12,635 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:12,639 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:12,707 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:12,798 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:12,800 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:12,910 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:12,928 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:12,929 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:13,121 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:13,210 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:13,211 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:13,292 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:13,293 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:13,325 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:13,401 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:13,403 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:13,489 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:13,494 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:13,506 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:13,507 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:13,530 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:13,708 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:13,710 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:13,739 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:13,895 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:13,896 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:13,942 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:14,072 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:14,073 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:14,155 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:14,290 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:14,292 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:14,361 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:14,577 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:14,636 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:14,637 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:14,773 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:14,937 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:14,938 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:14,981 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:15,192 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:15,280 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:15,282 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:15,380 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:15,382 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:15,392 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:15,531 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:15,534 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:15,604 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:15,775 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:15,776 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:15,807 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:15,924 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:15,925 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:16,005 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:16,007 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:16,018 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:16,183 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:16,184 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:16,223 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:16,403 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:16,404 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:16,427 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:16,604 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:16,605 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:16,636 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:16,798 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:16,803 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:16,840 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:16,996 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:16,997 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:17,052 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:17,225 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:17,226 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:17,264 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:17,467 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:17,474 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:17,475 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:17,659 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:17,661 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:17,671 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:17,851 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:17,852 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:17,875 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:18,059 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:18,061 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:18,085 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:18,290 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:18,327 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:18,327 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:18,488 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:18,506 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:18,506 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:18,684 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:18,686 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:18,692 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:18,875 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:18,876 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:18,904 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:19,039 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:19,041 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:19,110 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:19,270 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:19,271 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:19,312 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:19,488 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:19,490 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:19,524 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:19,713 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:19,713 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:19,727 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:19,917 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:19,918 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:19,939 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:20,119 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:20,120 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:20,143 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:20,337 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:20,342 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:20,352 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:20,482 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:20,484 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:20,560 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:20,769 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:20,837 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:20,838 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:20,975 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:21,009 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:21,011 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:21,182 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:21,222 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:21,223 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:21,392 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:21,429 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:21,430 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:21,576 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:21,578 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:21,602 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:21,741 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:21,742 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:21,809 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:21,937 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:21,939 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:22,014 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:22,146 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:22,147 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:22,228 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:22,411 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:22,412 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:22,431 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:22,641 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:22,842 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:22,856 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:22,858 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:23,021 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:23,022 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:23,054 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:23,130 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:23,132 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:23,208 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:23,210 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:23,262 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:23,448 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:23,450 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:23,476 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:23,677 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:03:23,716 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:23,717 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:23,899 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:23,900 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:24,087 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:03:24,089 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:03:24,145 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 22:06:41,395 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 22:06:41,396 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 22:06:50,812 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:50,945 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:51,151 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:51,256 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:51,258 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:51,272 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:51,273 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:51,366 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:51,527 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:51,528 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:51,574 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:51,722 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:51,723 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:51,781 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:51,959 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:51,960 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:51,992 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:52,172 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:52,174 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:52,198 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:52,360 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:52,361 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:52,393 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:52,592 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:52,594 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:52,608 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:52,774 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:52,775 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:52,805 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:52,989 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:52,990 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:53,017 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:53,190 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:53,192 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:53,315 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:53,348 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:53,348 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:53,528 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:53,694 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:53,696 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:53,732 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:53,913 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:53,915 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:53,946 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:54,066 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:54,068 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:54,151 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:54,291 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:54,293 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:54,361 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:54,534 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:54,536 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:54,565 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:54,748 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:54,749 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:54,773 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:54,898 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:54,899 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:54,979 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:55,144 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:55,148 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:55,179 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:55,329 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:55,330 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:55,394 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:55,514 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:55,515 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:55,597 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:55,804 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:55,805 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:55,805 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:56,009 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:56,113 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:56,114 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:56,215 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:56,380 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:56,382 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:56,426 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:56,521 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:56,522 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:56,597 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:56,598 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:56,616 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:56,814 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:56,816 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:56,834 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:56,975 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:56,976 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:57,033 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:57,209 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:57,212 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:57,238 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:57,416 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:57,418 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:57,444 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:57,619 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:57,620 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:57,648 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:57,779 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:57,844 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:57,846 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:57,964 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:58,036 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:58,037 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:58,156 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:58,158 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:58,166 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:58,354 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:58,356 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:58,373 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:58,525 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:58,526 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:58,579 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:58,726 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:58,727 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:58,787 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:58,962 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:58,963 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:58,991 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:59,042 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:59,173 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:59,175 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:59,198 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:59,373 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:59,375 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:59,400 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:59,405 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:59,405 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:59,530 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:59,531 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:59,609 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:59,774 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:59,776 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:06:59,817 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:06:59,998 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:06:59,999 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:00,028 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:00,154 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:00,155 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:00,344 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:00,412 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:00,413 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:00,546 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:00,748 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:00,761 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:00,761 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:00,927 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:00,929 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:00,957 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:01,146 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:01,146 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:01,161 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:01,329 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:01,331 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:01,383 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:01,522 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:01,524 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:01,582 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:01,767 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:01,769 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:01,787 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:01,931 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:01,933 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:01,999 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:02,175 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:02,176 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:02,207 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:02,344 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:02,347 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:02,419 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:02,568 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:02,569 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:02,622 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:07:02,802 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:02,802 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:02,957 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:07:02,958 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.15°C
+2025-11-21 22:07:03,053 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 22:11:27,491 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 22:11:27,492 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 22:11:53,632 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:53,821 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:54,021 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:54,056 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:54,057 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:54,211 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:54,213 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:54,232 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:54,439 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:54,440 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:54,446 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:54,607 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:54,608 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:54,637 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:54,842 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:54,855 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:54,855 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:55,031 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:55,033 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:55,047 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:55,253 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:55,263 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:55,265 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:55,457 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:55,457 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:55,467 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:55,667 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:55,669 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:55,674 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:55,881 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:55,911 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:55,912 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:56,086 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:56,095 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:56,097 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:56,294 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:56,296 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:56,299 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:56,488 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:56,490 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:56,506 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:56,643 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:56,644 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:56,707 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:56,869 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:56,871 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:56,922 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:57,073 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:57,074 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:57,123 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:57,254 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:57,255 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:57,334 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:57,492 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:57,494 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:57,543 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:57,718 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:57,719 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:57,752 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:57,901 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:57,903 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:57,961 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:58,163 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:58,165 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:58,166 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:58,337 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:58,338 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:58,369 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:58,572 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:58,575 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:58,584 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:58,753 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:58,754 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:58,785 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:58,990 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:58,992 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:59,001 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:59,135 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:59,136 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:59,202 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:59,398 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:59,440 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:59,440 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:59,604 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:59,624 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:59,625 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:59,785 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:59,786 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:11:59,815 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:11:59,985 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:11:59,986 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:12:00,028 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:12:00,198 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:12:00,199 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:12:00,236 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:12:00,414 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:12:00,415 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:12:00,439 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:12:00,611 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:12:00,611 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:12:00,640 - backend.main - INFO - Weather request received for city: London
+2025-11-21 22:12:00,814 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:12:00,815 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:12:01,006 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=London&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:12:01,009 - backend.main - INFO - ✅ Successfully fetched weather for London: 7.01°C
+2025-11-21 22:12:01,058 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 22:33:35,471 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 22:33:35,472 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 22:33:45,703 - backend.main - INFO - Weather request received for city: taipei
+2025-11-21 22:33:46,832 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:33:46,834 - backend.main - INFO - ✅ Successfully fetched weather for taipei: 19.93°C
