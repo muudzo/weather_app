@@ -87,7 +87,7 @@ export default function App() {
     const fetchWeather = async () => {
       try {
         setError(null);
-        const base = (import.meta.env.VITE_API_BASE as string) || 'http://localhost:8000';
+        const base = (import.meta.env.VITE_API_BASE as string) || 'http://127.0.0.1:8001';
         const city = encodeURIComponent(mockWeatherData.location.city || 'San Francisco');
         const res = await fetch(`${base}/weather?city=${city}`, {
           method: 'GET',
