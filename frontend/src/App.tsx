@@ -69,7 +69,7 @@ const mockWeatherData = {
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [weather] = useState(mockWeatherData);
+  const [weather, setWeather] = useState(mockWeatherData);
   const [timeOfDay, setTimeOfDay] = useState<'day' | 'night' | 'sunrise' | 'sunset'>('day');
 
   // Simulate time-based color changes
@@ -79,6 +79,54 @@ export default function App() {
     else if (hour >= 7 && hour < 18) setTimeOfDay('day');
     else if (hour >= 18 && hour < 20) setTimeOfDay('sunset');
     else setTimeOfDay('night');
+  }, []);
+
+  // Try to fetch real weather from backend; fall back to mock data on failure.
+  useEffect(() => {
+    const fetchWeather = async () => {
+      try {
+        const base = (import.meta.env.VITE_API_BASE as string) || 'http://localhost:8000';
+        const city = encodeURIComponent(mockWeatherData.location.city || 'San Francisco');
+        const res = await fetch(`${base}/weather?city=${city}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+
+        const transformedData = {
+          location: {
+            city: data.city,
+            country: data.country,
+            lat: 0,
+            lon: 0,
+          },
+          current: {
+            temperature: Math.round(data.temperature * 9/5 + 32),
+            feelsLike: Math.round(data.feels_like * 9/5 + 32),
+            condition: data.description.toLowerCase().includes('cloud') ? 'partly-cloudy' : 'sunny',
+            description: data.description,
+            high: Math.round(data.temperature * 9/5 + 32) + 5,
+            low: Math.round(data.temperature * 9/5 + 32) - 5,
+            humidity: data.humidity,
+            windSpeed: Math.round(data.wind_speed * 2.237),
+            windDirection: 'NW',
+            visibility: 10,
+            pressure: 1013,
+            uvIndex: 6,
+            dewPoint: 58,
+            precipitation: 0,
+          },
+          hourly: mockWeatherData.hourly,
+          forecast: mockWeatherData.forecast,
+          alerts: mockWeatherData.alerts,
+          timeOfDay: 'day',
+        };
+
+        setWeather(transformedData);
+      } catch (err) {
+        console.warn('Could not fetch weather from backend, using mock data', err);
+      }
+    };
+
+    fetchWeather();
   }, []);
 
   return (
