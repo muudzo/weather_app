@@ -87,7 +87,12 @@ export default function App() {
       try {
         const base = (import.meta.env.VITE_API_BASE as string) || 'http://localhost:8000';
         const city = encodeURIComponent(mockWeatherData.location.city || 'San Francisco');
-        const res = await fetch(`${base}/weather?city=${city}`);
+        const res = await fetch(`${base}/weather?city=${city}`, {
+          method: 'GET',
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
 
