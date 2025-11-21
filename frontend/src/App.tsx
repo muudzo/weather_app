@@ -70,6 +70,7 @@ const mockWeatherData = {
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [weather, setWeather] = useState(mockWeatherData);
+  const [error, setError] = useState<string | null>(null);
   const [timeOfDay, setTimeOfDay] = useState<'day' | 'night' | 'sunrise' | 'sunset'>('day');
 
   // Simulate time-based color changes
@@ -85,6 +86,7 @@ export default function App() {
   useEffect(() => {
     const fetchWeather = async () => {
       try {
+        setError(null);
         const base = (import.meta.env.VITE_API_BASE as string) || 'http://localhost:8000';
         const city = encodeURIComponent(mockWeatherData.location.city || 'San Francisco');
         const res = await fetch(`${base}/weather?city=${city}`, {
@@ -127,7 +129,9 @@ export default function App() {
 
         setWeather(transformedData);
       } catch (err) {
-        console.warn('Could not fetch weather from backend, using mock data', err);
+        const message = err instanceof Error ? err.message : String(err);
+        console.warn('Could not fetch weather from backend, using mock data', message);
+        setError(message);
       }
     };
 
@@ -147,6 +151,16 @@ export default function App() {
 
       {/* Main Content */}
       <div className="relative z-10 min-h-screen">
+        {/* Minimal visible error banner for API failures */}
+        {error && (
+          <div className="px-4 md:px-8 py-3">
+            <div className="max-w-[1800px] mx-auto">
+              <div className="rounded-lg bg-red-600 text-white px-4 py-2 text-sm">
+                Error fetching weather: {error}
+              </div>
+            </div>
+          </div>
+        )}
         {/* Header */}
         <motion.header
           initial={{ opacity: 0, y: -20 }}
