@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 import httpx
 from dotenv import load_dotenv
 import os
@@ -27,6 +28,22 @@ app = FastAPI(
     title="Weather API",
     description="A professional weather API with current weather and 5-day forecast",
     version="1.0.0"
+)
+
+# Allow the frontend dev server(s) to access this API during development
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.on_event("startup")
