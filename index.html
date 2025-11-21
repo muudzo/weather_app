@@ -4,51 +4,54 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Weather Dashboard</title>
+<title>🔥 Weather Dashboard 🔥</title>
 <style>
 /* ----- Reset & base ----- */
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
-body { min-height: 100vh; display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #1b1b1b, #0d0d0d); color: #fff; }
+body { min-height: 100vh; display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #0d0d0d, #1a1a1a); color: #fff; overflow-x: hidden; }
 
-/* ----- Glass panel ----- */
+/* ----- App container ----- */
 #app {
-background: rgba(255, 255, 255, 0.05);
+background: rgba(255,255,255,0.05);
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px);
 border: 1px solid rgba(255,255,255,0.1);
 box-shadow: 0 8px 32px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.05);
-border-radius: 16px;
+border-radius: 20px;
 padding: 2rem;
-max-width: 600px;
-width: 90%;
+max-width: 800px;
+width: 95%;
 text-align: center;
 animation: fadeIn 1s ease forwards;
 }
 
-/* ----- Neon header ----- */
+/* ----- Header ----- */
 h1 {
-font-size: 2.5rem;
-color: #fff;
-text-shadow: 0 0 10px #ff4500, 0 0 20px #ff6347, 0 0 30px #ff8c00;
-margin-bottom: 1rem;
+font-size: 3rem;
+color: #ff4500;
+text-shadow: 0 0 12px #ff6347, 0 0 24px #ff8c00, 0 0 36px #ffa500;
+margin-bottom: 2rem;
+animation: pulse 2s infinite alternate;
 }
 
-/* ----- City input ----- */
+/* ----- Controls ----- */
 #controls {
-margin-bottom: 1rem;
+margin-bottom: 2rem;
 display: flex;
 justify-content: center;
 gap: 0.5rem;
+flex-wrap: wrap;
 }
 #city-input {
-padding: 0.5rem 1rem;
+padding: 0.7rem 1.2rem;
 border-radius: 12px;
 border: none;
 outline: none;
 font-size: 1rem;
+min-width: 200px;
 }
 #fetch-btn {
-padding: 0.5rem 1rem;
+padding: 0.7rem 1.5rem;
 border-radius: 12px;
 border: none;
 cursor: pointer;
@@ -56,49 +59,68 @@ background: #ff4500;
 color: #fff;
 font-weight: bold;
 box-shadow: 0 0 10px #ff6347;
-transition: 0.2s;
+transition: transform 0.2s, box-shadow 0.2s;
 }
-#fetch-btn:hover { transform: scale(1.05); }
-
-/* ----- Weather display ----- */
-#weather-data {
-margin-top: 1rem;
-background: rgba(255,255,255,0.03);
-border: 1px solid rgba(255,255,255,0.08);
-border-radius: 12px;
-padding: 1rem;
-backdrop-filter: blur(10px);
--webkit-backdrop-filter: blur(10px);
-box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
-font-size: 1rem;
-white-space: pre-wrap;
-display: none;
+#fetch-btn:hover {
+transform: scale(1.05);
+box-shadow: 0 0 20px #ff7f50;
 }
 
 /* ----- Loader ----- */
 #loader {
-border: 4px solid rgba(255,255,255,0.2);
-border-top: 4px solid #ff4500;
+border: 5px solid rgba(255,255,255,0.2);
+border-top: 5px solid #ff4500;
 border-radius: 50%;
-width: 40px;
-height: 40px;
+width: 50px;
+height: 50px;
 margin: 2rem auto;
 animation: spin 1s linear infinite;
 display: none;
 }
 
+/* ----- Weather dashboard grid ----- */
+#weather-data {
+margin-top: 1rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 1rem;
+opacity: 0;
+transition: opacity 0.5s ease-in-out;
+}
+.weather-card {
+background: rgba(255,255,255,0.05);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+border: 1px solid rgba(255,255,255,0.1);
+border-radius: 16px;
+padding: 1rem;
+box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+animation: cardFade 0.5s ease forwards;
+}
+.weather-card h2 {
+margin-bottom: 0.5rem;
+color: #ff6347;
+text-shadow: 0 0 8px #ff4500, 0 0 16px #ff8c00;
+font-size: 1.2rem;
+}
+.weather-card p {
+font-size: 1rem;
+font-weight: bold;
+color: #fff;
+text-shadow: 0 0 4px #ff6347;
+}
+
 /* ----- Animations ----- */
 @keyframes spin { 0% { transform: rotate(0deg);} 100% { transform: rotate(360deg);} }
 @keyframes fadeIn { from {opacity:0; transform: translateY(20px);} to {opacity:1; transform: translateY(0);} }
+@keyframes pulse { 0% { text-shadow: 0 0 12px #ff6347,0 0 24px #ff8c00; } 100% { text-shadow: 0 0 24px #ff4500,0 0 48px #ff7f50; } }
+@keyframes cardFade { from {opacity:0; transform: translateY(10px);} to {opacity:1; transform: translateY(0);} }
 
-/* ----- Neon text effect for weather items ----- */
-.weather-item {
-color: #ff4500;
-text-shadow: 0 0 8px #ff6347, 0 0 16px #ff8c00;
-margin-bottom: 0.5rem;
-font-weight: bold;
-} </style>
-
+</style>
 </head>
 <body>
 <div id="app">
@@ -112,35 +134,115 @@ font-weight: bold;
 </div>
 
 <script>
-async function fetchWeather(city) {
+(() => {
   const loader = document.getElementById('loader');
   const container = document.getElementById('weather-data');
-  loader.style.display = 'block';
-  container.style.display = 'none';
-  
-  try {
-    const res = await fetch(`http://127.0.0.1:8001/weather?city=${encodeURIComponent(city)}`);
-    if (!res.ok) throw new Error('Network response was not ok');
-    const data = await res.json();
-    
-    loader.style.display = 'none';
-    container.style.display = 'block';
-    
-    container.innerHTML = Object.entries(data).map(([key, value]) => {
-      return `<div class="weather-item">${key}: ${value}</div>`;
-    }).join('');
-  } catch(e) {
-    loader.style.display = 'none';
-    container.style.display = 'block';
-    container.innerHTML = `<div class="weather-item">Error fetching data</div>`;
-    console.error(e);
-  }
-}
+  const fetchBtn = document.getElementById('fetch-btn');
+  const cityInput = document.getElementById('city-input');
+  let isFetching = false;
 
-document.getElementById('fetch-btn').addEventListener('click', () => {
-  const city = document.getElementById('city-input').value.trim();
-  if (city) fetchWeather(city);
-});
+  function showLoader() {
+    loader.style.display = 'block';
+    container.style.opacity = '0';
+    container.innerHTML = '';
+  }
+
+  function hideLoader() {
+    loader.style.display = 'none';
+    container.style.opacity = '1';
+  }
+
+  function renderError(message) {
+    container.innerHTML = `<div class="weather-card"><h2>Error</h2><p>${message}</p></div>`;
+  }
+
+  function renderWeather(data) {
+    // If backend returned a structured error object
+    if (data && data.error) {
+      renderError(data.detail || data.error);
+      return;
+    }
+
+    const weatherItems = [
+      { label: 'City', value: `${data.city || ''}${data.country ? ', ' + data.country : ''}` },
+      { label: 'Temperature', value: data.temperature !== undefined ? `${data.temperature} °C` : 'N/A' },
+      { label: 'Feels Like', value: data.feels_like !== undefined ? `${data.feels_like} °C` : 'N/A' },
+      { label: 'Description', value: data.description || 'N/A' },
+      { label: 'Humidity', value: data.humidity !== undefined ? `${data.humidity}%` : 'N/A' },
+      { label: 'Wind Speed', value: data.wind_speed !== undefined ? `${data.wind_speed} m/s` : 'N/A' },
+      { label: 'Timestamp', value: data.timestamp || '' }
+    ];
+
+    weatherItems.forEach(item => {
+      const card = document.createElement('div');
+      card.className = 'weather-card';
+      card.innerHTML = `<h2>${item.label}</h2><p>${item.value}</p>`;
+      container.appendChild(card);
+    });
+  }
+
+  async function fetchWeather(city) {
+    if (!city) {
+      renderError('Please enter a city');
+      return;
+    }
+
+    if (isFetching) return; // short-circuit if already fetching
+    isFetching = true;
+    showLoader();
+
+    // Cancel any in-flight request to avoid overlapping UI updates
+    if (window.__weatherAbortController) {
+      try { window.__weatherAbortController.abort(); } catch (e) { /* ignore */ }
+    }
+    const controller = new AbortController();
+    window.__weatherAbortController = controller;
+
+    // Disable controls while fetching
+    fetchBtn.disabled = true;
+    cityInput.disabled = true;
+    fetchBtn.setAttribute('aria-busy', 'true');
+
+    try {
+      const res = await fetch(`http://127.0.0.1:8001/weather?city=${encodeURIComponent(city)}`, { mode: 'cors', signal: controller.signal });
+      let json;
+      try { json = await res.json(); } catch (e) { throw new Error('Invalid JSON returned from server'); }
+
+      if (!res.ok) {
+        const msg = (json && (json.detail || json.error)) ? (json.detail || json.error) : `Server error ${res.status}`;
+        renderError(msg);
+        return;
+      }
+
+      hideLoader();
+      renderWeather(json);
+    } catch (e) {
+      // Ignore abort errors silently (these are expected when user triggers a new request)
+      if (e.name === 'AbortError') {
+        // do nothing (fetch was intentionally aborted)
+        return;
+      }
+      hideLoader();
+      renderError(e.message || 'Network error');
+      console.error('Fetch error:', e);
+    } finally {
+      isFetching = false;
+      fetchBtn.disabled = false;
+      cityInput.disabled = false;
+      fetchBtn.removeAttribute('aria-busy');
+      // clear controller if it is ours
+      if (window.__weatherAbortController === controller) window.__weatherAbortController = null;
+    }
+  }
+
+  fetchBtn.addEventListener('click', () => {
+    const city = cityInput.value.trim();
+    fetchWeather(city);
+  });
+
+  // Removed automatic fetch on page load — user must click 'Get Weather'
+
+})();
 </script>
 
 </body>
