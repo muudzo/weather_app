@@ -1,0 +1,31 @@
+2025-11-21 18:40:31,438 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 18:40:31,438 - backend.main - ERROR - ❌ OPENWEATHER_API_KEY not found in environment variables
+2025-11-21 18:59:12,161 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 19:11:59,524 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 19:11:59,524 - backend.main - ERROR - ❌ OPENWEATHER_API_KEY not found in environment variables
+2025-11-21 19:16:51,046 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 19:16:51,046 - backend.main - ERROR - ❌ OPENWEATHER_API_KEY not found in environment variables
+2025-11-21 19:17:17,443 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 19:17:20,455 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 19:17:20,455 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 19:24:11,247 - backend.main - INFO - Weather request received for city: San Francisco
+2025-11-21 19:24:11,786 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=San+Francisco&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 19:24:11,787 - backend.main - INFO - ✅ Successfully fetched weather for San Francisco: 9.73°C
+2025-11-21 19:24:26,957 - backend.main - INFO - Weather request received for city: San Francisco
+2025-11-21 19:24:27,332 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=San+Francisco&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 19:24:27,334 - backend.main - INFO - ✅ Successfully fetched weather for San Francisco: 9.73°C
+2025-11-21 19:25:26,663 - backend.main - INFO - Weather request received for city: San Francisco
+2025-11-21 19:25:27,077 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=San+Francisco&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 19:25:27,078 - backend.main - INFO - ✅ Successfully fetched weather for San Francisco: 9.73°C
+2025-11-21 19:26:07,378 - backend.main - INFO - Weather request received for city: San Francisco
+2025-11-21 19:26:07,759 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=San+Francisco&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 19:26:07,761 - backend.main - INFO - ✅ Successfully fetched weather for San Francisco: 9.73°C
+2025-11-21 19:26:08,823 - backend.main - INFO - Weather request received for city: San Francisco
+2025-11-21 19:26:09,221 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=San+Francisco&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 19:26:09,222 - backend.main - INFO - ✅ Successfully fetched weather for San Francisco: 9.73°C
+2025-11-21 19:50:39,132 - backend.main - INFO - Weather request received for city: San Francisco
+2025-11-21 19:50:39,537 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=San+Francisco&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 19:50:39,539 - backend.main - INFO - ✅ Successfully fetched weather for San Francisco: 9.57°C
+2025-11-21 19:50:48,448 - backend.main - INFO - Weather request received for city: San Francisco
+2025-11-21 19:50:48,839 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=San+Francisco&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 19:50:48,850 - backend.main - INFO - ✅ Successfully fetched weather for San Francisco: 9.57°C
