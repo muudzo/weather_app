@@ -69,8 +69,9 @@ const mockWeatherData = {
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [weather, setWeather] = useState(mockWeatherData);
+  const [weather, setWeather] = useState<any>(mockWeatherData);
   const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
   const [timeOfDay, setTimeOfDay] = useState<'day' | 'night' | 'sunrise' | 'sunset'>('day');
 
   // Simulate time-based color changes
@@ -87,6 +88,7 @@ export default function App() {
     const fetchWeather = async () => {
       try {
         setError(null);
+        setLoading(true);
         const base = (import.meta.env.VITE_API_BASE as string) || 'http://127.0.0.1:8001';
         const city = encodeURIComponent(mockWeatherData.location.city || 'San Francisco');
         const res = await fetch(`${base}/weather?city=${city}`, {
@@ -128,15 +130,23 @@ export default function App() {
         };
 
         setWeather(transformedData);
+        setLoading(false);
       } catch (err) {
         const message = err instanceof Error ? err.message : String(err);
         console.warn('Could not fetch weather from backend, using mock data', message);
         setError(message);
+        setLoading(false);
       }
     };
 
     fetchWeather();
   }, []);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">Loading...</div>
+    );
+  }
 
   return (
     <div className="min-h-screen relative overflow-hidden">
