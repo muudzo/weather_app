@@ -1,10 +1,3 @@
-from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
-import httpx
-from dotenv import load_dotenv
-import os
-from typing import Optional, Dict, Any, Tuple
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
@@ -15,6 +8,7 @@ from typing import Optional, Dict, Any, Tuple
 import logging
 from datetime import datetime, timedelta
 from pydantic import BaseModel
+
 
 # Configure logging
 logging.basicConfig(
