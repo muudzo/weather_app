@@ -679,3 +679,839 @@
 2025-11-21 22:33:45,703 - backend.main - INFO - Weather request received for city: taipei
 2025-11-21 22:33:46,832 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
 2025-11-21 22:33:46,834 - backend.main - INFO - ✅ Successfully fetched weather for taipei: 19.93°C
+2025-11-21 22:40:33,536 - backend.main - INFO - Weather request received for city: zimbabwe
+2025-11-21 22:40:33,968 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=zimbabwe&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:40:33,972 - backend.main - INFO - ✅ Successfully fetched weather for zimbabwe: 30.19°C
+2025-11-21 22:40:54,750 - backend.main - INFO - Weather request received for city: leeuwarden
+2025-11-21 22:40:55,152 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=leeuwarden&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:40:55,154 - backend.main - INFO - ✅ Successfully fetched weather for leeuwarden: 4.17°C
+2025-11-21 22:42:14,030 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 22:42:50,043 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 22:42:50,043 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 22:45:30,202 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:30,476 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:30,611 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:30,613 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:30,646 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:30,808 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:30,809 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:30,854 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:30,992 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:30,993 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:31,099 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:31,226 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:31,226 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:31,266 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:31,444 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:31,445 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:31,614 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:31,615 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:31,635 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:31,775 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:31,978 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:31,980 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:31,984 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:32,184 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:32,187 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:32,192 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:32,351 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:32,353 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:32,402 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:32,532 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:32,532 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:32,598 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:32,777 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:32,777 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:32,812 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:32,941 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:32,942 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:33,018 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:33,194 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:33,195 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:33,246 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:33,378 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:33,379 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:33,565 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:33,583 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:33,584 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:33,739 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:33,915 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:33,916 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:33,950 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:34,091 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:34,092 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:34,150 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:34,319 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:34,322 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:34,364 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:34,521 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:34,522 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:34,569 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:34,729 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:34,730 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:34,780 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:34,926 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:34,927 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:35,068 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:35,154 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:35,154 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:35,284 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:35,443 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:35,443 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:35,490 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:35,628 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:35,629 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:35,725 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:35,850 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:35,850 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:35,892 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:36,076 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:36,077 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:36,098 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:36,239 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:36,239 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:36,440 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:36,440 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:36,446 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 22:45:54,932 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 22:45:54,932 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 22:45:55,139 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:55,351 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:55,542 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:55,543 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:55,562 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:55,715 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:55,716 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:55,766 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:55,958 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:55,960 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:55,976 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:56,155 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:56,156 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:56,177 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:56,390 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:56,562 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:56,564 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:56,587 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:56,723 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:56,724 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:56,810 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:56,859 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:56,860 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:56,943 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:56,945 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:57,018 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:57,177 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:57,178 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:57,378 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:57,440 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:57,441 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:57,512 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:57,723 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:57,733 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:57,734 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:57,896 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:57,898 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:57,931 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:58,110 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:58,112 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:58,127 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:58,305 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:58,307 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:58,331 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:58,540 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:58,753 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:58,888 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:58,891 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:58,893 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:58,894 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:59,023 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:59,093 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:59,095 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:59,109 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:59,109 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:59,144 - backend.main - INFO - Weather request received for city: Taipei
+2025-11-21 22:45:59,382 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:59,383 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:59,521 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 22:45:59,524 - backend.main - INFO - ✅ Successfully fetched weather for Taipei: 19.93°C
+2025-11-21 22:45:59,601 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 22:52:31,400 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 22:52:31,400 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 22:52:31,678 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:31,818 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:32,024 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:32,107 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:32,108 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:32,181 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:32,183 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:32,241 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:32,392 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:32,394 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:32,446 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:32,602 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:32,603 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:32,651 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:32,825 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:32,827 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:32,860 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:32,978 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:32,980 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:33,073 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:33,228 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:33,230 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:33,279 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:33,409 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:33,411 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:33,484 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:33,658 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:33,659 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:33,692 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:33,856 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:33,858 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:33,894 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:34,060 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:34,062 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:34,101 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:34,255 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:34,256 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:34,307 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:34,477 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:34,479 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:34,510 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:34,676 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:34,676 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:34,722 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:34,881 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:34,883 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:34,927 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:35,079 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:35,080 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:35,132 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:35,284 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:35,285 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:35,335 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:35,459 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:35,461 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:35,543 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:35,696 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:35,698 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:35,752 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:35,919 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:35,920 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:35,961 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:36,116 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:36,116 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:36,179 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:36,338 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:36,338 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:36,367 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:36,570 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:36,572 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:36,578 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:36,745 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:36,746 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:36,781 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:36,939 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:36,941 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:36,992 - backend.main - INFO - Weather request received for city: null
+2025-11-21 22:52:37,169 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:37,170 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:37,354 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=null&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 404 Not Found"
+2025-11-21 22:52:37,356 - backend.main - WARNING - OpenWeather API returned status 404 for city: null
+2025-11-21 22:52:37,406 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 23:00:21,147 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 23:00:21,147 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 23:00:21,350 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:21,519 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:21,731 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:21,931 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:22,104 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:22,106 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:22,123 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:22,124 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:22,135 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:22,344 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:22,556 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:22,692 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:22,693 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:22,725 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:22,726 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:22,733 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:22,734 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:22,757 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:22,777 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:22,778 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:22,957 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:22,958 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:22,966 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:23,109 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:23,111 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:23,169 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:23,345 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:23,347 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:23,377 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:23,521 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:23,522 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:23,600 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:23,762 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:23,764 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:23,804 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:23,973 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:23,974 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:24,003 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:24,179 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:24,180 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:24,203 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:24,358 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:24,359 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:24,415 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:24,552 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:24,553 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:24,616 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:24,795 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:24,796 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:24,820 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:24,991 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:24,993 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:25,025 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:25,181 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:25,182 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:25,257 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:25,392 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:25,393 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:25,443 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:00:25,651 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:25,652 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:25,818 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:00:25,819 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:00:25,853 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 23:07:23,931 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 23:07:23,931 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 23:07:24,167 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:24,442 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:24,568 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:24,570 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:24,676 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:24,880 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:24,895 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:24,896 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:25,069 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:25,071 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:25,086 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:25,266 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:25,268 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:25,299 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:25,472 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:25,474 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:25,502 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:25,676 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:25,677 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:25,703 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:25,942 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:25,943 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:25,985 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:26,109 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:26,113 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:26,113 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:26,316 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:26,397 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:26,398 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:26,513 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:26,728 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:26,937 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:27,143 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:27,351 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:27,561 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:27,587 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:27,588 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:27,768 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:27,775 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:27,777 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:27,844 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:27,845 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:27,863 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:27,865 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:27,916 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:27,918 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:27,919 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:27,920 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:27,920 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:27,921 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:27,947 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:27,949 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:28,018 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:28,180 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:28,242 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:28,243 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:28,442 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:28,443 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:28,469 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:28,567 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:28,568 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:28,587 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:28,800 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:28,851 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:28,854 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:28,929 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:28,932 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:29,001 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:29,209 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:29,272 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:29,273 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:29,420 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:29,454 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:29,455 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:29,619 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:29,621 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:29,632 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:29,796 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:29,798 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:29,839 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:30,003 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:30,004 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:30,040 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:30,260 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:30,296 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:30,298 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:30,455 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:07:30,500 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:30,501 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:30,680 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:30,683 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:30,850 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:07:30,852 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:07:30,909 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 23:08:37,123 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 23:08:37,123 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 23:08:37,416 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:37,669 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:37,812 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:37,813 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:37,858 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:38,041 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:38,042 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:38,071 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:38,267 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:38,269 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:38,284 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:38,437 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:38,438 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:38,474 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:38,647 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:38,648 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:38,692 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:38,858 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:38,859 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:38,917 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:39,072 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:39,073 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:39,115 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:39,273 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:39,275 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:39,360 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:39,472 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:39,473 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:39,516 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:39,732 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:39,737 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:39,737 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:39,881 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:39,882 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:39,934 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:40,102 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:40,103 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:40,146 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:40,308 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:40,309 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:40,334 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:40,478 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:40,479 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:40,606 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:40,701 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:40,702 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:40,905 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:41,004 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:41,005 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:41,056 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:41,241 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:41,242 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:41,257 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:41,415 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:41,416 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:41,564 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:41,624 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:41,625 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:41,774 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:41,938 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:41,940 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:41,976 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:42,155 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:42,156 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:42,190 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:42,368 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:42,369 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:42,402 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:42,527 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:42,529 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:42,600 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:42,755 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:42,756 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:42,904 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:42,966 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:42,968 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:43,106 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:43,279 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:43,280 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:43,314 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:43,489 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:43,490 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:43,518 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:43,686 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:43,687 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:43,719 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:43,872 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:43,873 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:43,926 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:44,096 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:44,097 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:44,137 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:44,293 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:44,295 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:44,344 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:44,509 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:44,510 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:44,554 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:44,731 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:44,732 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:44,764 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:44,978 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:44,997 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:44,998 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:45,107 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:45,108 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:45,177 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:45,256 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:45,301 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:45,302 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:45,384 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:45,559 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:45,561 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:45,590 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:45,632 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:45,633 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:45,767 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:45,768 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:45,804 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:45,960 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:45,961 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:46,005 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:46,177 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:46,178 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:46,212 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:46,334 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:46,335 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:46,422 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:46,584 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:46,585 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:46,731 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:46,800 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:46,800 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:46,938 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:47,086 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:47,087 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:47,223 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:47,323 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:47,324 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:47,605 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:47,606 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:50,733 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:50,954 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:51,136 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:51,137 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:51,154 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:51,321 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:51,323 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:51,366 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:51,524 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:51,526 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:51,570 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:51,750 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:51,750 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:51,779 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:51,925 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:51,926 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:51,990 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:52,201 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:52,203 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:52,204 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:52,406 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:52,408 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:52,409 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:52,593 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:52,601 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:52,665 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:52,752 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:52,753 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:52,827 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:53,024 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:53,039 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:53,039 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:53,216 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:53,217 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:53,231 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:53,397 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:53,399 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:53,437 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:53,613 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:53,614 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:53,641 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:53,820 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:53,822 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:53,847 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:54,017 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:54,019 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:54,054 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:08:54,215 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:54,216 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:54,401 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:08:54,403 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:08:54,467 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 23:15:47,035 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 23:15:47,035 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 23:15:47,759 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:48,157 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:48,199 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:15:48,200 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:15:48,371 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:48,517 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:15:48,518 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:15:48,580 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:48,791 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:48,999 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:49,209 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:49,420 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:49,665 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:49,824 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:50,030 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:50,237 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:50,448 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:50,684 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:50,860 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:51,070 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:51,275 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:51,487 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:51,686 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:51,895 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:52,105 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:52,310 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:52,518 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:52,795 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:52,923 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:53,137 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:53,337 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:53,546 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:53,749 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:53,960 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:54,173 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:54,613 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:54,781 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:54,993 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:55,203 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:55,404 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:55,614 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:55,826 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:56,028 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:56,231 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:56,442 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:56,676 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:57,030 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:57,178 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:57,381 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:57,580 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:57,796 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:57,995 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:58,198 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:58,404 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:58,609 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:58,814 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:59,021 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:59,226 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:59,432 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:59,647 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:15:59,848 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:00,058 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:00,266 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:00,475 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:00,682 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:00,794 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:00,994 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:01,202 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:01,409 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:01,618 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:01,829 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:02,033 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:02,242 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:02,447 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:02,662 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:02,863 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:03,069 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:03,276 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:03,482 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:03,782 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:07,845 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:08,030 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:08,232 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:08,436 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:08,643 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:08,846 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:09,057 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:09,264 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:09,474 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:09,681 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:09,893 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:10,096 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:10,302 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:10,510 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:10,713 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:10,916 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:11,124 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:11,332 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:11,536 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:11,743 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:11,948 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:12,158 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:12,365 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:12,571 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:12,775 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:12,984 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:13,192 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:13,399 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:13,605 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:13,815 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:14,008 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:14,216 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:14,420 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:14,625 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:14,831 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:15,040 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:15,245 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:15,448 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:15,660 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:15,863 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:16,069 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:16,274 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:16,477 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:16,682 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:16,894 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:17,098 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:17,305 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:17,512 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:17,716 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:17,928 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:18,131 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:18,341 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:18,547 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:18,758 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:18,958 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:19,162 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:19,371 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:19,578 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:19,780 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:19,992 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:20,194 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:20,405 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:20,608 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:20,814 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:21,015 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:21,224 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:21,430 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:21,640 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:21,845 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:22,045 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:22,250 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:22,458 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:22,664 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:22,867 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:23,080 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:23,280 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:23,483 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:23,691 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:23,891 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:24,101 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:24,310 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:24,512 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:24,715 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:24,920 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:25,124 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:25,329 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:25,539 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:25,743 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:25,956 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:26,155 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:26,359 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:26,566 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:26,777 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:27,055 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:27,217 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:27,417 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:27,617 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:27,824 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:28,029 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:28,243 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:28,448 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:28,661 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:28,872 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:29,079 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:29,279 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:29,488 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:29,696 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:29,902 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:30,111 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:30,316 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:30,528 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:16:30,731 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:22,450 - backend.main - INFO - 👋 Weather API shutting down...
+2025-11-21 23:18:23,111 - backend.main - INFO - 🚀 Weather API starting up...
+2025-11-21 23:18:23,111 - backend.main - INFO - ✅ API key loaded successfully
+2025-11-21 23:18:30,015 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:30,462 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:30,593 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:30,729 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:18:30,730 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:18:30,802 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:30,964 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:18:30,966 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:18:31,007 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:31,017 - httpx - INFO - HTTP Request: GET https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=0979ac502bdaccf43b583807e4a65347&units=metric "HTTP/1.1 200 OK"
+2025-11-21 23:18:31,018 - backend.main - INFO - ✅ Successfully fetched weather for Harare: 24.32°C
+2025-11-21 23:18:31,214 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:31,423 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:31,631 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:31,837 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:32,043 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:32,247 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:32,457 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:32,660 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:32,868 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:33,076 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:33,284 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:33,489 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:33,693 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:33,908 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:34,113 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:34,323 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:34,526 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:34,731 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:34,939 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:35,163 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:35,354 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:35,559 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:35,761 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:35,971 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:36,178 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:36,388 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:36,594 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:36,802 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:37,011 - backend.main - INFO - Weather request received for city: Harare
+2025-11-21 23:18:37,167 - backend.main - INFO - 👋 Weather API shutting down...
